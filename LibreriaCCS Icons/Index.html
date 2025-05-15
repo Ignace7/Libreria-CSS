@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Librería de Íconos ANIMA</title>
+  <link rel="stylesheet" href="Style.css">
+  <link rel="stylesheet" href="LibreriaIcons.CSS">
+</head>
+
+<body>
+
+
+  <nav class="navbar">
+    <!-- Logo alineado a la izquierda -->
+    <div class="logo">
+      <img src="ANIMA-WEBV1.png" alt="ANIMA Logo">
+
+    </div>
+
+    <!-- Contenedor de los enlaces -->
+    <div class="nav-links">
+      <a href="#" class="boton-gastos" id="toggleSidebar"> Documentación <i class="anima anima-lista"></i></a>
+    </div>
+  </nav>
+  <!-- Sidebar de Documentación -->
+  <!-- Overlay -->
+  <div id="overlay" class="overlay"></div>
+
+  <!-- Sidebar -->
+  <aside id="sidebarDoc" class="sidebar-doc">
+    <h3>Documentación Libre</h3>
+    <p>Esta librería ha sido creada por ANIMA Studio con el propósito de apoyar a creadores independientes, diseñadores
+      y desarrolladores que buscan herramientas accesibles y funcionales para sus proyectos.
+
+      Es de uso libre, siempre y cuando se respete su propósito: fomentar la creatividad, la colaboración y el
+      crecimiento tecnológico desde una comunidad independiente.
+
+      Para utilizar los íconos y estilos de esta librería, simplemente vincula la siguiente API en tu documento HTML:
+    </p>
+
+    <div class="codigo-box">
+      <strong>Vincula esta API en tu documento HTML:</strong>
+      <pre><code id="codigoCopiar">&lt;link rel="stylesheet" href="https://animastudio-ignacioacevedo-librerias.netlify.app/LibreriaIcons.CSS"&gt;</code></pre>
+      <button class="btn-copiar" onclick="copiarCodigo()">Copiar</button>
+      <span id="avisoCopiado" class="tooltip-copiado">¡Copiado!</span>
+    </div>
+
+    <p> Con esta línea, tendrás acceso inmediato a todos los estilos e íconos diseñados por ANIMA Studio . Estamos
+      desarrollando mejoras.</p>
+
+
+    <footer class="footer-anima">
+      &copy; 2025 ANIMA Studio.+3D UI/UX · Todos los derechos reservados · Tecate B.C. MX. <a href="#">Términos &
+        Condiciones de Uso</a>
+    </footer>
+
+  </aside>
+
+  <script>
+    document.getElementById('toggleSidebar').addEventListener('click', function (e) {
+      e.preventDefault();
+      document.getElementById('sidebarDoc').classList.toggle('active');
+    });
+  </script>
+
+  <script>
+    function copiarCodigo() {
+      const codigo = document.getElementById("codigoCopiar").textContent;
+      const aviso = document.getElementById("avisoCopiado");
+
+      navigator.clipboard.writeText(codigo).then(() => {
+        aviso.classList.add("visible");
+        setTimeout(() => {
+          aviso.classList.remove("visible");
+        }, 2000);
+      });
+    }
+  </script>
+
+
+
+
+
+
+  <main style="display: flex; gap: 10px;">
+    <!-- Columna 70% -->
+    <section style="flex: 7;">
+      <h3 style="text-align: center;">Librería de Íconos ANIMA</h3>
+      <div class="button-container">
+        <button class="icon-button" onclick="mostrarCodigo('&lt;i class=&quot;anima anima-cuenta&quot;&gt;&lt;/i&gt;')">
+          Cuenta <i class="anima anima-cuenta"></i>
+        </button>
+
+        <button class="icon-button" onclick="mostrarCodigo('&lt;i class=&quot;anima anima-lista&quot;&gt;&lt;/i&gt;')">
+          Lista <i class="anima anima-lista"></i>
+        </button>
+        <button class="icon-button"
+          onclick="mostrarCodigo('&lt;i class=&quot;anima anima-corazon&quot;&gt;&lt;/i&gt;')">
+          Corazon <i class="anima anima-corazon"></i>
+        </button>
+        </button>
+        <button class="icon-button"
+          onclick="mostrarCodigo('&lt;i class=&quot;anima anima-articulo&quot;&gt;&lt;/i&gt;')">
+          Articulo <i class="anima anima-articulo"></i>
+        </button>
+        <button class="icon-button"
+          onclick="mostrarCodigo('&lt;i class=&quot;anima anima-cajafuerte&quot;&gt;&lt;/i&gt;')">
+          Caja fuerte <i class="anima anima-cajafuerte"></i>
+        </button>
+        </button>
+        <button class="icon-button"
+          onclick="mostrarCodigo('&lt;i class=&quot;anima anima-campana&quot;&gt;&lt;/i&gt;')">
+          Campana <i class="anima anima-campana"></i>
+        </button>
+        <button class="icon-button" onclick="mostrarCodigo('&lt;i class=&quot;anima anima-foto&quot;&gt;&lt;/i&gt;')">
+          Foto <i class="anima anima-foto"></i>
+        </button>
+        <button class="icon-button" onclick="mostrarCodigo('&lt;i class=&quot;anima anima-red&quot;&gt;&lt;/i&gt;')">
+          Red <i class="anima anima-red"></i>
+        </button>
+        <button class="icon-button" onclick="mostrarCodigo('&lt;i class=&quot;anima anima-social&quot;&gt;&lt;/i&gt;')">
+          Social <i class="anima anima-social"></i>
+        </button>
+
+
+        <button class="icon-button" onclick="mostrarCodigo('&lt;i class=&quot;anima anima-emogi&quot;&gt;&lt;/i&gt;')">
+          Emogi <i class="anima anima-emogi"></i>
+        </button>
+
+        <button class="icon-button" onclick="mostrarCodigo('&lt;i class=&quot;anima anima-cruz&quot;&gt;&lt;/i&gt;')">
+          Cruz Roja <i class="anima anima-cruz"></i>
+        </button>
+
+
+        <button class="icon-button" onclick="mostrarCodigo('&lt;i class=&quot;anima anima-escudo&quot;&gt;&lt;/i&gt;')">
+          Escudo <i class="anima anima-escudo"></i>
+        </button>
+
+        <button class="icon-button"
+          onclick="mostrarCodigo('&lt;i class=&quot;anima anima-engrane&quot;&gt;&lt;/i&gt;')">
+          Engrane <i class="anima anima-engrane"></i>
+        </button>
+
+
+        <button class="icon-button" onclick="mostrarCodigo('&lt;i class=&quot;anima anima-chat&quot;&gt;&lt;/i&gt;')">
+          Chat <i class="anima anima-chat"></i>
+        </button>
+
+    </section>
+
+    <!-- Columna 30% -->
+    <aside style="flex: 3;">
+      <!-- Aquí puedes poner lo que gustes -->
+      <h2>Codigo de Iconos</h2>
+      <p>Pulsa sobre el ícono de tu preferencia y copia el código que aparece aquí abajo. Luego, insértalo en tu hoja
+        de HTML.</p>
+
+      <!-- Vista previa del código -->
+      <div id="codigo-preview" class="codigo-preview"></div>
+    </aside>
+
+  </main>
+
+
+
+
+  <main style="display: flex; gap: 10px;">
+    <!-- Columna 70% -->
+
+    <section style="flex: 7;">
+      <h3 style="text-align: center;">Librería de Íconos Redes Sociales</h3>
+      <div class="button-container">
+
+        <button class="icon-button"
+          onclick="mostrarCodigo('&lt;i class=&quot;anima anima-instagram&quot;&gt;&lt;/i&gt;')">
+          Instagram <i class="anima anima-instagram"></i>
+        </button>
+
+        <button class="icon-button" onclick="mostrarCodigo('&lt;i class=&quot;anima anima-drop&quot;&gt;&lt;/i&gt;')">
+          Drop Box <i class="anima anima-drop"></i>
+        </button>
+
+        <button class="icon-button" onclick="mostrarCodigo('&lt;i class=&quot;anima anima-redx&quot;&gt;&lt;/i&gt;')">
+          Hoy <i class="anima anima-redx"></i>
+        </button>
+
+        <button class="icon-button" onclick="mostrarCodigo('&lt;i class=&quot;anima anima-mac&quot;&gt;&lt;/i&gt;')">
+          Apple <i class="anima anima-mac"></i>
+        </button>
+
+        <button class="icon-button"
+          onclick="mostrarCodigo('&lt;i class=&quot;anima anima-youtube&quot;&gt;&lt;/i&gt;')">
+          Youtube <i class="anima anima-youtube"></i>
+        </button>
+
+        <button class="icon-button" onclick="mostrarCodigo('&lt;i class=&quot;anima anima-drop&quot;&gt;&lt;/i&gt;')">
+          Drop Box <i class="anima anima-drop"></i>
+        </button>
+
+      </div>
+    </section>
+
+    <section style="flex: 7;">
+      <h3 style="text-align: center;">Librería de Íconos ANIMA QR & Tags</h3>
+      <div class="button-container">
+
+        <button class="icon-button" onclick="mostrarCodigo('&lt;i class=&quot;anima anima-qr&quot;&gt;&lt;/i&gt;')">
+          Qr <i class="anima anima-qr"></i>
+        </button>
+
+
+        <button class="icon-button" onclick="mostrarCodigo('&lt;i class=&quot;anima anima-qrcode&quot;&gt;&lt;/i&gt;')">
+          Qr Code <i class="anima anima-qrcode"></i>
+        </button>
+
+
+        <button class="icon-button"
+          onclick="mostrarCodigo('&lt;i class=&quot;anima anima-qrdescarga&quot;&gt;&lt;/i&gt;')">
+          Qr Descarga <i class="anima anima-qrdescarga"></i>
+        </button>
+
+
+        <button class="icon-button"
+          onclick="mostrarCodigo('&lt;i class=&quot;anima anima-qrdescargados&quot;&gt;&lt;/i&gt;')">
+          Qr Descarga2 <i class="anima anima-qrdescargados"></i>
+        </button>
+
+        <button class="icon-button" onclick="mostrarCodigo('&lt;i class=&quot;anima anima-tag&quot;&gt;&lt;/i&gt;')">
+          Tag <i class="anima anima-tag"></i>
+        </button>
+
+        <button class="icon-button"
+          onclick="mostrarCodigo('&lt;i class=&quot;anima anima-etiqueta&quot;&gt;&lt;/i&gt;')">
+          Etiqueta <i class="anima anima-etiqueta"></i>
+        </button>
+
+        <button class="icon-button" onclick="mostrarCodigo('&lt;i class=&quot;anima anima-info&quot;&gt;&lt;/i&gt;')">
+          Informes <i class="anima anima-info"></i>
+        </button>
+
+      </div>
+    </section>
+
+    <section style="flex: 7;">
+      <h3 style="text-align: center;">Librería de Íconos ANIMA Escolar</h3>
+
+      <div class="button-container">
+
+
+        <button class="icon-button" onclick="mostrarCodigo('&lt;i class=&quot;anima anima-font&quot;&gt;&lt;/i&gt;')">
+          Fuente <i class="anima anima-font"></i>
+        </button>
+
+        <button class="icon-button"
+          onclick="mostrarCodigo('&lt;i class=&quot;anima anima-fontdos&quot;&gt;&lt;/i&gt;')">
+          Fuente Chica <i class="anima anima-fontdos"></i>
+        </button>
+
+      </div>
+    </section>
+
+    <section style="flex: 7;">
+      <h3 style="text-align: center;">Librería de Íconos ANIMA Turismo</h3>
+
+      <div class="button-container">
+        <button class="icon-button" onclick="mostrarCodigo('&lt;i class=&quot;anima anima-mundo&quot;&gt;&lt;/i&gt;')">
+          Mundo <i class="anima anima-mundo"></i>
+        </button>
+
+        <button class="icon-button"
+          onclick="mostrarCodigo('&lt;i class=&quot;anima anima-turismo&quot;&gt;&lt;/i&gt;')">
+          Turismo <i class="anima anima-turismo"></i>
+        </button>
+
+      </div>
+    </section>
+  </main>
+
+    <main style="display: flex; gap: 10px;">
+    <!-- Columna 70% -->
+
+    <section style="flex: 7;">
+      <h3 style="text-align: center;">Librería de Íconos ANIMA  Graficas</h3>
+      <div class="button-container">
+
+      </div>
+    </section>
+
+    <section style="flex: 7;">
+      <h3 style="text-align: center;">Librería de Íconos ANIMA  Eventos</h3>
+      <div class="button-container">
+
+      </div>
+    </section>
+
+    <section style="flex: 7;">
+      <h3 style="text-align: center;">Librería Íconos ANIMA & DVAMUSIC</h3>
+      <div class="button-container">
+
+
+        <button class="icon-button"
+          onclick="mostrarCodigo('&lt;i class=&quot;anima anima-nota&quot;&gt;&lt;/i&gt;')">
+          Play Musical  <i class="anima anima-nota"></i>
+        </button>
+
+
+
+      </div>
+    </section>
+
+
+      <section style="flex: 7;">
+      <h3 style="text-align: center;">Librería de Íconos ANIMA Compras Ventas</h3>
+      <div class="button-container">
+
+
+
+        <button class="icon-button"
+          onclick="mostrarCodigo('&lt;i class=&quot;anima anima-carritosuper&quot;&gt;&lt;/i&gt;')">
+          Carrito Super <i class="anima anima-carritosuper"></i>
+        </button>
+
+
+        <button class="icon-button"
+          onclick="mostrarCodigo('&lt;i class=&quot;anima anima-debito&quot;&gt;&lt;/i&gt;')">
+          Tarjeta Debito <i class="anima anima-debito"></i>
+        </button>
+
+
+      </div>
+    </section>
+
+
+  </main>
+
+
+  <script>
+    function mostrarCodigo(codigo) {
+      const contenedor = document.getElementById("codigo-preview");
+      const codeElement = document.createElement("code");
+      codeElement.textContent = codigo; // ¡Esto evita que lo interprete como HTML!
+
+      contenedor.innerHTML = "<p>Copia este código para ver el icono:</p>";
+      contenedor.appendChild(codeElement);
+    }
+  </script>
+
+
+
+
+</body>
+
+</html>

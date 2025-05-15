@@ -1,0 +1,351 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+    background: linear-gradient(135deg, rgb(70, 87, 172), rgb(33, 37, 62));
+}
+
+/* Estilo general del navbar */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(135deg, rgb(0, 0, 0), rgb(32, 32, 32));
+  padding: 8px 4px;
+  padding-left: 4%;
+  padding-right: 4%;
+}
+@media print {
+  .navbar {
+    display: none; /* Oculta la barra de navegación al imprimir */
+  }
+}
+
+/* Logo alineado a la izquierda */
+.logo img {
+  width: 20px; /* Ajusta el tamaño del logo */
+  height: auto;
+}
+
+/* Estilos para los botones/enlaces */
+.boton-gastos {
+  text-decoration: none;
+  background-color: transparent; /* Azul */
+  color: rgb(255, 255, 255);
+  padding: 15px 10px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  gap: 5px;
+  margin: 4px;
+}
+
+/* Estilos para el botón de engranaje */
+.boton-engranaje {
+  background-color: transparent;
+  border: none;
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+}
+
+/* Efecto al pasar el mouse */
+.boton-engranaje:hover {
+  transform: rotate(90deg); /* Gira el engranaje */
+  background-color: transparent;
+  color: #ecedef;
+  font-size: 16px;
+}
+
+.container {
+  max-width: 950px;
+  margin: 0px auto;
+  bottom: 0px;
+  background: #fffffff0;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #f0f0f0ab;
+  padding-bottom: 1px;
+}
+
+.logo img {
+  width: 120px;
+  z-index: 2000;
+}
+
+
+/* Body Main*/
+main {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+/* Columna izquierda (70%) */
+main > section {
+  flex: 1 1 70%;
+  min-width: 300px;
+  background-color: #f3fcfe;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.06);
+}
+
+main > sectiondos {
+  flex: 1 1 70%;
+  min-width: 300px;
+  background-color: #f3fcfe;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.06);
+}
+
+
+/* Columna derecha (30%) */
+main > aside {
+  flex: 1 1 30%;
+  min-width: 250px;
+  background-color: #1f315e;
+  color: #e9e9e9;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.06);
+}
+
+
+
+/* Responsive para pantallas pequeñas */
+@media (max-width: 768px) {
+  main > section,
+  main > aside {
+    flex: 0 0 100%;
+  }
+}
+
+
+h2 {
+  margin-bottom: 30px;
+  font-size: 20px;
+  color: #ffffff;
+  right: 5px;
+
+}
+
+
+h3 {
+  margin-bottom: 30px;
+  font-size: 20px;
+  color: #000000;
+margin-right: auto;
+ 
+}
+
+.button-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-right: auto;
+}
+
+.icon-button {
+  padding: 10px 20px;
+  font-size: 20px;
+  background-color: #000000;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s ease;
+}
+
+.icon-button:hover {
+  background-color: #6b3cda;
+  color: rgb(255, 255, 255);
+  transform: translateY(-2px);
+
+}
+
+
+.codigo-preview {
+  margin-top: 25px;
+  text-align: center;
+  background-color: #4256bc;
+  padding: 15px;
+  border-radius: 8px;
+  font-family: monospace;
+  color: #e9e9e9;
+  display: inline-block;
+
+}
+
+
+
+/* Responsive para pantallas pequeñas */
+@media (max-width: 768px) {
+  main > section,
+  main > aside {
+    flex: 1 1 100%;
+  }
+}
+
+h2 {
+  margin-bottom: 30px;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+h3 {
+  margin-bottom: 30px;
+  font-size: 20px;
+  color: #363d5d;
+}
+
+.button-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.icon-button {
+  padding: 8px 12px;
+  font-size: 18px;
+  background-color: #4e5467;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s ease;
+}
+
+.icon-button:hover {
+  background-color: #3c71da;
+  color: white;
+  transform: translateY(-2px);
+}
+
+.codigo-preview {
+  margin-top: 25px;
+  text-align: center;
+  background-color: #4256bc;
+  padding: 15px;
+  border-radius: 8px;
+  font-family: monospace;
+  color: #e9e9e9;
+  display: inline-block;
+}
+
+
+.sidebar-doc {
+  position: fixed;
+  top: 50px;
+  right: -100%; /* oculto por defecto */
+  width: 350px;
+  height: 100%;
+  background-color: #fdfeff;
+  box-shadow: -2px 0 10px rgba(85, 85, 85, 0.2);
+  padding: 20px;
+  transition: right 0.3s ease;
+  z-index: 999;
+  color: #1e1e1e;
+  display: flex;
+  flex-direction: column;
+  border-radius: 25px 0px 0px 0px;
+}
+
+.sidebar-doc.active {
+  right: 0; /* se desliza desde la derecha */
+}
+
+.contenido-sidebar {
+  flex: 1;
+  overflow-y: auto;
+}
+
+.codigo-box {
+  background-color: #f4f7ff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 15px;
+  margin: 20px 0;
+  font-family: monospace;
+  color: #2d2d2d;
+  overflow-x: auto;
+  position: relative;
+}
+
+.btn-copiar {
+  position: absolute;
+  top: 64px;
+  right: 10px;
+  padding: 3px 12px;
+  background-color: #1d4493;
+  color: rgb(255, 255, 255);
+   border: 1px solid #1a1963;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 12px;
+}
+.btn-copiar:hover {
+
+  background-color: #5c28a4;
+  color: rgb(255, 255, 255);
+
+}
+
+.tooltip-copiado {
+  position: absolute;
+  top: -25px;
+  right: 10px;
+  background-color: #a7a7a7;
+  color: white;
+  padding: 4px 10px;
+  border-radius: 4px;
+  font-size: 12px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+
+.tooltip-copiado.visible {
+  opacity: 1;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+
+.footer-anima {
+  background-color: #f1f5ff;
+  color: #212121;
+  text-align: center;
+  padding: 15px;
+  font-size: 14px;
+  font-family: sans-serif;
+  border-radius: 10px;
+  margin-top: 60%;
+  margin-bottom: 5%;
+}
+
+.footer-anima a {
+  color: #595a5d;
+  text-decoration: underline;
+  margin-left: 5px;
+}
+
+.footer-anima a:hover {
+  color: #3558d5;
+}

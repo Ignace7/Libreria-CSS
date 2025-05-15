@@ -1,0 +1,666 @@
+
+/* Libreria de Icono de Cuenta V1.1 */
+.anima.anima-cuenta::before {
+  content: '';
+  display: inline-block;
+  width: 0.9em;
+  height: 0.9em;
+  vertical-align: middle;
+  background-image: url('icons/Cuentadtres.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  transition: filter 0.3s ease;
+}
+
+.heimall-btn:hover .anima.anima-cuenta::before {
+  filter: invert(1); /* cambia color del ícono */
+}
+
+/* ----------------------------------Mundo */
+.anima.anima-mundo::before {
+  content: '';
+  display: inline-block;
+  width: 0.9em;
+  height: 0.9em;
+  vertical-align: middle;
+  background-image: url('icons/animamundov1.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  transition: filter 0.3s ease;
+}
+
+.heimall-btn:hover .anima.anima-mundo::before {
+  filter: invert(1); /* cambia color del ícono */
+}
+
+/* -------------------------------------Lista */
+.anima.anima-lista::before {
+  content: '';
+  display: inline-block;
+  width: 1.0em;
+  height: 0.9em;
+  vertical-align: middle;
+  background-image: url('icons/Listav1.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  transition: filter 0.3s ease;
+}
+
+.heimall-btn:hover .anima.anima-lista::before {
+  filter: invert(1); /* cambia color del ícono */
+}
+
+/* ---------------------------------------- Icono de Corazon V1.1 */
+.anima.anima-corazon::before {
+  content: '';
+  display: inline-block;
+  width: 0.9em;
+  height: 0.9em;
+  vertical-align: middle;
+  background-image: url('icons/Corazon.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  transition: filter 0.3s ease;
+}
+
+.heimall-btn:hover .anima.anima-corazon::before {
+  filter: invert(1); /* cambia color del ícono */
+}
+
+/* ---------------------------------------- Icono de Articulo V1.1 */
+.anima.anima-articulo::before {
+  content: '';
+  display: inline-block;
+  width: 0.9em;
+  height: 0.9em;
+  vertical-align: middle;
+  background-image: url('icons/Articulov1.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  transition: filter 0.3s ease;
+}
+
+.heimall-btn:hover .anima.anima-articulo::before {
+  filter: invert(1); /* cambia color del ícono */
+}
+
+/* ---------------------------------------- Icono de Articulo V1.1 */
+.anima.anima-cajafuerte::before {
+  content: '';
+  display: inline-block;
+  width: 1.0em;
+  height: 1.0em;
+  vertical-align: middle;
+  background-image: url('icons/cajafuertev1.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  transition: filter 0.3s ease;
+}
+
+.heimall-btn:hover .anima.anima-cajafuerte::before {
+  filter: invert(1); /* cambia color del ícono */
+}
+
+/* ---------------------------------------- Icono de Articulo V1.1 */
+.anima.anima-campana::before {
+  content: '';
+  display: inline-block;
+  width: 0.9em;
+  height: 0.9em;
+  vertical-align: middle;
+  background-image: url('icons/campanav1.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  transition: filter 0.3s ease;
+}
+
+.heimall-btn:hover .anima.anima-campana::before {
+  filter: invert(1); /* cambia color del ícono */
+}
+
+/* ---------------------------------------- Icono de Foto V1.1 */
+.anima.anima-foto::before {
+  content: '';
+  display: inline-block;
+  width: 1.0em;
+  height: 0.9em;
+  vertical-align: middle;
+  background-image: url('icons/Photov1.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  transition: filter 0.3s ease;
+}
+
+.heimall-btn:hover .anima.anima-foto::before {
+  filter: invert(1); /* cambia color del ícono */
+}
+/* ---------------------------------------- Icono de Foto V1.1 */
+.anima.anima-red::before {
+  content: '';
+  display: inline-block;
+  width: 0.9em;
+  height: 0.9em;
+  vertical-align: middle;
+  background-image: url('icons/Redv1.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  transition: filter 0.3s ease;
+}
+
+.heimall-btn:hover .anima.anima-red::before {
+  filter: invert(1); /* cambia color del ícono */
+}
+
+/* ---------------------------------------- Icono de Social V1.1 */
+.anima.anima-social::before {
+  content: '';
+  display: inline-block;
+  width: 0.9em;
+  height: 0.9em;
+  vertical-align: middle;
+  background-image: url('icons/s1.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  transition: filter 0.3s ease;
+}
+
+.heimall-btn:hover .anima.anima-social::before {
+  filter: invert(1); /* cambia color del ícono */
+}
+
+/* ---------------------------------------- Icono de Social V1.1 */
+.anima.anima-turismo::before {
+  content: '';
+  display: inline-block;
+  width: 0.9em;
+  height: 0.9em;
+  vertical-align: middle;
+  background-image: url('icons/Turismov1.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  transition: filter 0.3s ease;
+}
+
+.heimall-btn:hover .anima.anima-turismo::before {
+  filter: invert(1); /* cambia color del ícono */
+}
+
+/* ---------------------------------------- Icono de Social V1.1 */
+.anima.anima-emogi::before {
+  content: '';
+  display: inline-block;
+  width: 0.9em;
+  height: 0.9em;
+  vertical-align: middle;
+  background-image: url('icons/EMOGIV1.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  transition: filter 0.3s ease;
+}
+
+.heimall-btn:hover .anima.anima-emogi::before {
+  filter: invert(1); /* cambia color del ícono */
+}
+/* ---------------------------------------- Icono de Social V1.1 */
+.anima.anima-cruz::before {
+  content: '';
+  display: inline-block;
+  width: 0.9em;
+  height: 0.8em;
+  vertical-align: middle;
+  background-image: url('icons/CRUZROJAv1.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  transition: filter 0.3s ease;
+}
+
+.heimall-btn:hover .anima.anima-cruz::before {
+  filter: invert(1); /* cambia color del ícono */
+}
+/* ---------------------------------------- Icono de Social V1.1 */
+.anima.anima-etiqueta::before {
+  content: '';
+  display: inline-block;
+  width: 1.0em;
+  height: 1.0em;
+  vertical-align: middle;
+  background-image: url('icons/etiqueta.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  transition: filter 0.3s ease;
+}
+
+.heimall-btn:hover .anima.anima-etiqueta::before {
+  filter: invert(1); /* cambia color del ícono */
+}
+
+/* ---------------------------------------- Icono de Social V1.1 */
+.anima.anima-escudo::before {
+  content: '';
+  display: inline-block;
+  width: 0.9em;
+  height: 0.9em;
+  vertical-align: middle;
+  background-image: url('icons/SOSH.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  transition: filter 0.3s ease;
+}
+
+.heimall-btn:hover .anima.anima-escudo::before {
+  filter: invert(1); /* cambia color del ícono */
+}
+/* ---------------------------------------- Icono de Social V1.1 */
+.anima.anima-engrane::before {
+  content: '';
+  display: inline-block;
+  width: 0.9em;
+  height: 0.9em;
+  vertical-align: middle;
+  background-image: url('icons/Engranev1\ .svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  transition: filter 0.3s ease;
+}
+
+.heimall-btn:hover .anima.anima-engrane::before {
+  filter: invert(1); /* cambia color del ícono */
+}
+/* ---------------------------------------- Icono de Social V1.1 */
+.anima.anima-tag::before {
+  content: '';
+  display: inline-block;
+  width: 0.9em;
+  height: 0.9em;
+  vertical-align: middle;
+  background-image: url('icons/Tag.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  transition: filter 0.3s ease;
+}
+
+.heimall-btn:hover .anima.anima-tag::before {
+  filter: invert(1); /* cambia color del ícono */
+}
+
+/* ---------------------------------------- Icono de QR V1.1 */
+.anima.anima-qr::before {
+  content: '';
+  display: inline-block;
+  width: 1.0em;
+  height: 1.0em;
+  vertical-align: middle;
+  background-image: url('icons/qr.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  transition: filter 0.3s ease;
+}
+
+.heimall-btn:hover .anima.anima-qr::before {
+  filter: invert(1); /* cambia color del ícono */
+}
+
+/* ---------------------------------------- Icono de QR V1.1 */
+.anima.anima-qrcode::before {
+  content: '';
+  display: inline-block;
+  width: 1.0em;
+  height: 1.0em;
+  vertical-align: middle;
+  background-image: url('icons/qrv2.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  transition: filter 0.3s ease;
+}
+
+.heimall-btn:hover .anima.anima-qrcode::before {
+  filter: invert(1); /* cambia color del ícono */
+}
+
+
+
+/* ---------------------------------------- Icono .1 */
+.anima.anima-qrdescarga::before {
+  content: '';
+  display: inline-block;
+  width: 0.9em;
+  height: 0.9em;
+  vertical-align: middle;
+  background-image: url('icons/qrfollow.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  transition: filter 0.3s ease;
+}
+
+.heimall-btn:hover .anima.anima-qrdescarga::before {
+  filter: invert(1); /* cambia color del ícono */
+}
+
+
+/* ---------------------------------------- Icono .1 */
+.anima.anima-qrdescargados::before {
+  content: '';
+  display: inline-block;
+  width: 0.9em;
+  height: 0.9em;
+  vertical-align: middle;
+  background-image: url('icons/QrDescaregaV2.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  transition: filter 0.3s ease;
+}
+
+.heimall-btn:hover .anima.anima-qrdescargados::before {
+  filter: invert(1); /* cambia color del ícono */
+}
+
+
+/* ---------------------------------------- Icono .Info */
+.anima.anima-info::before {
+  content: '';
+  display: inline-block;
+  width: 0.9em;
+  height: 0.9em;
+  vertical-align: middle;
+  background-image: url('icons/info.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  transition: filter 0.3s ease;
+}
+
+.heimall-btn:hover .anima.anima-info::before {
+  filter: invert(1); /* cambia color del ícono */
+}
+
+/* ---------------------------------------- Icono .Fuente */
+.anima.anima-font::before {
+  content: '';
+  display: inline-block;
+  width: 0.9em;
+  height: 0.9em;
+  vertical-align: middle;
+  background-image: url('icons/Font.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  transition: filter 0.3s ease;
+}
+
+.heimall-btn:hover .anima.anima-font::before {
+  filter: invert(1); /* cambia color del ícono */
+}
+
+/* ---------------------------------------- Icono .Fuente */
+.anima.anima-fontdos::before {
+  content: '';
+  display: inline-block;
+  width: 0.7em;
+  height: 0.7em;
+  vertical-align: middle;
+  background-image: url('icons/FuenteV1.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  transition: filter 0.3s ease;
+}
+
+.heimall-btn:hover .anima.anima-fontdos::before {
+  filter: invert(1); /* cambia color del ícono */
+}
+
+
+/* ---------------------------------------- Icono .Fuente */
+.anima.anima-chat::before {
+  content: '';
+  display: inline-block;
+  width: 0.8em;
+  height: 0.8em;
+  vertical-align: middle;
+  background-image: url('icons/Chats1.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  transition: filter 0.3s ease;
+}
+
+.heimall-btn:hover .anima.anima-chat::before {
+  filter: invert(1); /* cambia color del ícono */
+}
+
+
+/* ---------------------------------------- Icono .Fuente */
+.anima.anima-mac::before {
+  content: '';
+  display: inline-block;
+  width: 0.7em;
+  height: 1.1em;
+  vertical-align: middle;
+  background-image: url('icons/mac.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  transition: filter 0.3s ease;
+}
+
+.heimall-btn:hover .anima.anima-mac::before {
+  filter: invert(1); /* cambia color del ícono */
+}
+
+
+/* ---------------------------------------- Icono .Youtube */
+.anima.anima-youtube::before {
+  content: '';
+  display: inline-block;
+  width: 1.0em;
+  height: 0.8em;
+  vertical-align: middle;
+  background-image: url('icons/youtube.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  transition: filter 0.3s ease;
+}
+
+.heimall-btn:hover .anima.anima-youtube::before {
+  filter: invert(1); /* cambia color del ícono */
+}
+
+/* ---------------------------------------- Icono .Youtube */
+.anima.anima-drop::before {
+  content: '';
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  vertical-align: middle;
+  background-image: url('icons/drop.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  transition: filter 0.3s ease;
+}
+
+.heimall-btn:hover .anima.anima-drop::before {
+  filter: invert(1); /* cambia color del ícono */
+}
+
+
+/* ---------------------------------------- Icono .Youtube */
+.anima.anima-redx::before {
+  content: '';
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  vertical-align: middle;
+  background-image: url('icons/redx.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  transition: filter 0.3s ease;
+}
+
+.heimall-btn:hover .anima.anima-redx::before {
+  filter: invert(1); /* cambia color del ícono */
+}
+
+/* ---------------------------------------- Icono .Youtube */
+.anima.anima-instagram::before {
+  content: '';
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  vertical-align: middle;
+  background-image: url('icons/imtegram.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  transition: filter 0.3s ease;
+}
+
+.heimall-btn:hover .anima.anima-instagram::before {
+  filter: invert(1); /* cambia color del ícono */
+}
+
+
+/* ---------------------------------------- Icono .Youtube */
+.anima.anima-behance::before {
+  content: '';
+  display: inline-block;
+  width: 1.1em;
+  height: 0.8em;
+  vertical-align: middle;
+  background-image: url('icons/be.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  transition: filter 0.3s ease;
+}
+
+.heimall-btn:hover .anima.anima-behance::before {
+  filter: invert(1); /* cambia color del ícono */
+}
+
+
+/* ---------------------------------------- Icono .Youtube */
+.anima.anima-whatsapp::before {
+  content: '';
+  display: inline-block;
+  width: 1.0em;
+  height: 1.0em;
+  vertical-align: middle;
+  background-image: url('icons/whatsapp.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  transition: filter 0.3s ease;
+}
+
+.heimall-btn:hover .anima.anima-whatsapp::before {
+  filter: invert(1); /* cambia color del ícono */
+}
+
+/* ---------------------------------------- Icono .Youtube */
+.anima.anima-linkedin::before {
+  content: '';
+  display: inline-block;
+  width: 0.8em;
+  height: 1.0em;
+  vertical-align: middle;
+  background-image: url('icons/linkedin.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  transition: filter 0.3s ease;
+}
+
+.heimall-btn:hover .anima.anima-linkedin::before {
+  filter: invert(1); /* cambia color del ícono */
+}
+
+
+
+/* ---------------------------------------- Icono Carrito super */
+.anima.anima-carritosuper::before {
+  content: '';
+  display: inline-block;
+  width: 1.4em;
+  height: 1.1em;
+  vertical-align: middle;
+  background-image: url('icons/carritosuper.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  transition: filter 0.3s ease;
+}
+
+.heimall-btn:hover .anima.carritosuper-linkedin::before {
+  filter: invert(1); /* cambia color del ícono */
+}
+
+
+/* ---------------------------------------- Icono Carrito super */
+.anima.anima-debito::before {
+  content: '';
+  display: inline-block;
+  width: 1.2em;
+  height: 1.0em;
+  vertical-align: middle;
+  background-image: url('icons/cardebito.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  transition: filter 0.3s ease;
+}
+
+.heimall-btn:hover .anima.debito-linkedin::before {
+  filter: invert(1); /* cambia color del ícono */
+}
+
+/* ---------------------------------------- Icono Carrito super */
+.anima.anima-nota::before {
+  content: '';
+  display: inline-block;
+  width: 0.9em;
+  height: 1.1em;
+  vertical-align: middle;
+  background-image: url('icons/nota.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  transition: filter 0.3s ease;
+}
+
+.heimall-btn:hover .anima.nota-linkedin::before {
+  filter: invert(1); /* cambia color del ícono */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
